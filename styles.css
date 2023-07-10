@@ -1,0 +1,34 @@
+/* EXTERNAL CSS DEFINITIONS */
+
+body {
+  padding: 0;
+  margin: 0; 
+}
+
+div {
+  box-sizing: border-box; /* padding calcs make more sense */
+}
+
+.center {
+  text-align: center;
+}
+
+#bkg-img {
+  background: url('./images/jp-movie-still.jpg');
+  height: 100vh;
+}
+
+#top-corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  padding: 30px 30px 0px; /* top, right/left, bottom */
+}
+
+#rawr {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Bangers', cursive;
+}
